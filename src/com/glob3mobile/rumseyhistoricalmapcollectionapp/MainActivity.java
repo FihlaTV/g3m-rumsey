@@ -4,7 +4,9 @@ package com.glob3mobile.rumseyhistoricalmapcollectionapp;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,6 +28,11 @@ public class MainActivity
       actionBar.setTitle("");
 
       setContentView(R.layout.activity_main);
+
+      if (!isOnline()) {
+         Dialogs.showNetworkError(MainActivity.this);
+      }
+
 
       final Button italy1800 = (Button) findViewById(R.id.italy1800);
 
@@ -144,6 +151,12 @@ public class MainActivity
       });
 
 
+   }
+
+
+   public boolean isOnline() {
+      final ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+      return (cm.getActiveNetworkInfo() != null) && cm.getActiveNetworkInfo().isConnectedOrConnecting();
    }
 
 

@@ -17,4 +17,5 @@
     <string name="berlin1860">Berlin 1860</string>
     <string name="congo1708">Congo 1708</string>
     <string name="allMaps">All maps together</string>
+     <string name="networkError">The Internet connection is not avalaible. The app wil shut down now</string>
 </resources>
