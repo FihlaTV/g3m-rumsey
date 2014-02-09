@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">G3M - Rumsey Historical Map Collection</string>
+    <string name="action_about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="italy1800">Italy 1800</string>
+    <string name="swirzerland1837">Switzerland 1837</string>
+    <string name="ny1852">New York 1852</string>
+    <string name="washington1851">Washington D.C. 1851</string>
+    <string name="spain1701">Spain 1701</string>
+    <string name="argentina1867">Argentina 1867</string>  
+    <string name="russia1794">Russia 1794</string>  
+    <string name="beijing1930">Beijing 1930</string>
+    <string name="colombia1840">Colombia 1840</string>
+    <string name="na1786">North America 1786</string>
+    <string name="berlin1860">Berlin 1860</string>
+    <string name="congo1708">Congo 1708</string>
+    <string name="allMaps">All maps together</string>
+</resources>

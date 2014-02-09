@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.glob3mobile.rumseyhistoricalmapcollectionapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+    
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.MainActivity"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.AllMapsTogetherActivity"
+            android:label="@string/allMaps"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+       <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Italy1800Activity"
+            android:label="@string/italy1800"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+                            <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.NewYork1852Activity"
+            android:label="@string/ny1852"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+
+  <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.WashingtonDC1851Activity"
+            android:label="@string/washington1851"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+   <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Spain1701Activity"
+            android:label="@string/spain1701"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+                        
+       <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Argentina1867Activity"
+            android:label="@string/argentina1867"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+                            
+              <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Russia1794Activity"
+            android:label="@string/russia1794"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+      <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Beijing1930Activity"
+            android:label="@string/beijing1930"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+           <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Colombia1840Activity"
+            android:label="@string/colombia1840"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+           <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.NorthAmerica1786Activity"
+            android:label="@string/na1786"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+                      <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Berlin1860Activity"
+            android:label="@string/berlin1860"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+                  </activity>
+            
+                                                <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.Congo1708Activity"
+            android:label="@string/congo1708"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >                                
+        </activity>
+           
+              
+                                                <activity
+            android:name="com.glob3mobile.rumseyhistoricalmapcollectionapp.HelpActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >                                
+        </activity>
+           
+                                                
+                                                
+    </application>
+
+</manifest>
