@@ -1,7 +1,7 @@
 g3m-rumsey
 ==========
 
-This app has been developed to show how to write a simple android application to show customized raster data sources.
+This app has been developed to explain how to write a simple android application to show customized raster data sources.
 #The app
 
 This application has been developed using Glob3 Moble native SDK for Android:
@@ -10,10 +10,10 @@ This application has been developed using Glob3 Moble native SDK for Android:
  + [Demo Project](https://github.com/glob3mobile/g3m/tree/purgatory/Android/G3MAndroidDemo)
  + [Issue list](https://github.com/glob3mobile/g3m/issues)
 
-The architechture is quite simple, there is a main applications that launch the different maps using buttons. The lifecycle is managed killing the activity when the back button is clicked.
+The architecture is quite simple, there is a main applications that launch the different maps using buttons. The lifecycle is managed killing the activity when the back button is clicked.
 We use as data source the tiles served by "The David Rumsey Map Collection", this tiles has been builded in mercator, and maps are georeferenced.
 
-We are a using a customized layer extending the SDK's WMSTemplateLayer for reach to this tiles.
+We are a using a customized layer extending the SDK's WMSTemplateLayer for reach this tiles.
 
 [GeoGarajeLayer.java](https://github.com/glob3mobile/g3m-rumsey/blob/master/src/com/glob3mobile/rumseyhistoricalmapcollectionapp/GeoGarageLayer.java)
 
